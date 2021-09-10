@@ -1,9 +1,15 @@
 import MyComponent from './MyComponent';
+import Header from './Header';
 import './App.css';
 
 const App = () => {
   return (
-    <MyComponent />
+    <>
+      <Header />
+      <div>
+        <MyComponent />
+      </div>
+    </>
   );
 }
 
